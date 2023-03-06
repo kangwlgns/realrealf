@@ -23,8 +23,7 @@ void BtR() {
 }
 
 int log2(int n) {
-    int cur = 1;
-    
+    int cur = 1;    
     for (int i = 0; i < 16; i++) {
         if (n - cur < 0) {
             return i - 1;
